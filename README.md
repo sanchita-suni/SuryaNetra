@@ -1,4 +1,4 @@
-# 🛰️ SūryaNetra: AI-Governance for PM Surya Ghar
+# 🛰️ SūryaNetra
 ### 🏆 EcoInnovators Ideathon 2026 Submission
 
 [![Watch the Demo](Artefacts/auditor_dashboard.png)](https://drive.google.com/file/d/1WTkHUNNKU_nXKkVvq3th43Rs0rbY_zj8/view?usp=sharing)
