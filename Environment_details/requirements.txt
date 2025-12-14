@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy<2
+ultralytics
+opencv-python-headless
+reportlab
+Pillow
+requests
+pydeck
+plotly
+streamlit-image-comparison

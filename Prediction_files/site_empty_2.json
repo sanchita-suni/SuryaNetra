@@ -1,0 +1,19 @@
+{
+    "sample_id": "site_empty_2",
+    "lat": 19.076,
+    "lon": 72.8777,
+    "has_solar": false,
+    "confidence": 0.32,
+    "pv_area_sqm_est": 15.98,
+    "buffer_radius_sqft": 0,
+    "qc_status": "VERIFIABLE",
+    "qc_notes": [
+        "Ignored Noise (Weak Signal)"
+    ],
+    "bbox_or_mask": "[[411.47222900390625, 214.5870361328125, 439.69952392578125, 243.030029296875]]",
+    "image_metadata": {
+        "source": "Google Static Maps",
+        "capture_date": "2025-12-14"
+    },
+    "integrity_hash": "a6d02e742a3521600b2e8d9ce84bdbf184f9c0774838c81a89f0df98652c86ce"
+}
