@@ -45,10 +45,7 @@ This repository follows the submission guidelines:
 ---
 
 ## 🚀 Quick Start
-**Option A: Live Demo (No Install Needed)**
-🔗 [Click Here to Launch App](YOUR_STREAMLIT_CLOUD_LINK)
-
-**Option B: Local Installation**
+**Local Installation**
 1. Clone the repo:
    ```bash
    git clone [https://github.com/YOUR_USERNAME/SuryaNetra.git](https://github.com/YOUR_USERNAME/SuryaNetra.git)
