@@ -8,7 +8,7 @@
 
 ## 🎯 The Challenge
 **Objective:** Verify rooftop solar installations for the *PM Surya Ghar: Muft Bijli Yojana*.
-**The Problem:** Field inspections are slow[cite: 8], and standard AI fails due to **GPS Drift** (satellite coordinates often miss the roof center).
+**The Problem:** Field inspections are slow, and standard AI fails due to **GPS Drift** (satellite coordinates often miss the roof center).
 
 ## 💡 Our Solution: SūryaNetra
 We built a governance-ready pipeline that combines **Computer Vision** with a **Citizen-Democratic Workflow**.
