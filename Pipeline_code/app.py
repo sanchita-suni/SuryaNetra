@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import json
-import osSS
+import os
 import sys
 import time
 import numpy as np
