@@ -54,7 +54,7 @@ This repository follows the submission guidelines:
 ---
 
 ## 📄 Compliance: Mandatory JSON Output
-[cite_start]Each verification site generates a JSON record in the `Prediction_files/` directory following the required schema[cite: 65]:
+Each verification site generates a JSON record in the `Prediction_files/` directory following the required schema:
 
 ```json
 {
