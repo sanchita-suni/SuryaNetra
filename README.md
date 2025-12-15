@@ -22,6 +22,15 @@ We built a governance-ready pipeline that combines **Computer Vision** with a **
 
 ---
 
+## 📚 Data Sources & Citations
+In compliance with the challenge guidelines, the following datasets were utilized for model training and validation:
+* **Source 1:** Alfred Weber Institute of Economics (Roboflow).
+* **Source 2:** LSG1547 Project (Roboflow).
+* **Source 3:** Piscinas Y Tenistable (Roboflow).
+* **Satellite Imagery:** Google Static Maps API and ESRI World Imagery.
+
+---
+
 ## 📸 System Screenshots
 | Auditor Dashboard | Citizen Appeal Interface |
 | :---: | :---: |
@@ -41,6 +50,33 @@ This repository follows the submission guidelines:
 * `output/` - Output images, audits, citizen uploads and downloaded reports are saved here.
 * `Prediction_files/` - JSON output files of the detections.
 * `Artefacts/` - Sample detections and output proofs.
+
+---
+
+## 📄 Compliance: Mandatory JSON Output
+[cite_start]Each verification site generates a JSON record in the `Prediction_files/` directory following the required schema[cite: 65]:
+
+```json
+{
+    "sample_id": "site_solar_2",
+    "lat": 28.6295,
+    "lon": 77.2137,
+    "has_solar": true,
+    "confidence": 0.64,
+    "pv_area_sqm_est": 1109.02,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "qc_notes": [
+        "Solar Confirmed (Zone: 2400)"
+    ],
+    "bbox_or_mask": "[[253.45411682128906, 143.7777862548828, 365.323486328125, 223.3053436279297], [400.8895568847656, 34.69709014892578, 481.2196960449219, 103.09870147705078], [309.21197509765625, 78.72380065917969, 446.60357666015625, 173.71133422851562], [394.6480712890625, 26.056808471679688, 488.1163330078125, 113.26091003417969], [246.47344970703125, 128.05157470703125, 369.23175048828125, 236.1302490234375], [171.26089477539062, 158.91824340820312, 313.12237548828125, 269.7717590332031]]",
+    "image_metadata": {
+        "source": "Google Static Maps",
+        "capture_date": "2025-12-14"
+    },
+    "integrity_hash": "06af5d67fe5672e52a8c97b2edba79bd305254377e529fb7f1911a0dab5c71d0"
+}
+```
 
 ---
 
